@@ -1,10 +1,11 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather_app/blocs/city_weather_cubit.dart';
 import 'package:weather_app/components/weather_component.dart';
 
 class HomeView extends StatelessWidget {
+  const HomeView({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,7 @@ class HomeView extends StatelessWidget {
       backgroundColor: Colors.transparent,
       elevation: 0,
       leading: IconButton(
-        icon:Icon(
+        icon:const Icon(
           Icons.search,
           size: 30,
           color: Colors.black,
@@ -38,9 +39,9 @@ class HomeView extends StatelessWidget {
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          children: const [
             Text('Not Found a City!!',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
-            Text('Please Search a City..',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+            Text('Please Search a City..',style:  TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
 
         ],
         ),
