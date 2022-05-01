@@ -25,28 +25,29 @@ class CityWeatherModel{
 
      String getImage()
      {
-       if(weatherStateName=='Snow')
+       if(weatherStateName=='Snow') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/snow.jpg';
-       else if(weatherStateName=='Sleet')
+       } else if(weatherStateName=='Sleet') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/sleet.jpg';
-       else if(weatherStateName=='Hail')
+       } else if(weatherStateName=='Hail') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/hail.jpg';
-       else if(weatherStateName=='Thunderstorm'||weatherStateName=='Thunder')
+       } else if(weatherStateName=='Thunderstorm'||weatherStateName=='Thunder') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/thunder_snow.jpg';
-       else if(weatherStateName=='Heavy Rain')
+       } else if(weatherStateName=='Heavy Rain') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/heavy_rain.jpg';
-       else if(weatherStateName=='Light Rain')
+       } else if(weatherStateName=='Light Rain') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/light_rain.jpg';
-       else if(weatherStateName=='Showers')
+       } else if(weatherStateName=='Showers') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/shower.jpg';
-       else if(weatherStateName=='Heavy Cloud')
+       } else if(weatherStateName=='Heavy Cloud') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/heavy_cloud.jpg';
-       else if(weatherStateName=='Light Cloud')
+       } else if(weatherStateName=='Light Cloud') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/light_cloud.jpg';
-       else if(weatherStateName=='Clear')
+       } else if(weatherStateName=='Clear') {
          return'C:/Users/Legion 5/StudioProjects/weather_app/assets/clear.jpg';
-       else
+       } else {
          return 'C:/Users/Legion 5/StudioProjects/weather_app/assets/clear.jpg';
+       }
 
      }
 
