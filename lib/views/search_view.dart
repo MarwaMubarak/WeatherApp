@@ -7,6 +7,8 @@ import 'package:weather_app/services/weather_service/weather_service.dart';
 class SearchView extends StatelessWidget {
 
   String? cityName;
+
+  SearchView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<CityWeatherCubit, CityWeatherState>(
@@ -17,7 +19,7 @@ class SearchView extends StatelessWidget {
     var cubit=CityWeatherCubit.get(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text('Search a City'),
+        title: const Text('Search a City'),
         centerTitle: true,
         backgroundColor: Colors.black,
       ),
@@ -33,7 +35,7 @@ class SearchView extends StatelessWidget {
              cubit.AssignWeather(cityWeather!, cityName!);
               Navigator.pop(context);
             },
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               hintText: 'Enter a City',
               border: OutlineInputBorder(),
               suffixIcon: Icon(Icons.search),
