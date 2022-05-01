@@ -1,7 +1,5 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:meta/meta.dart';
 import 'package:weather_app/models/city_weather_model.dart';
 import 'package:weather_app/views/search_view.dart';
 part 'city_weather_state.dart';
