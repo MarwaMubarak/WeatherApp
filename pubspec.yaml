@@ -65,16 +65,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/light_cloud.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/snow.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/sleet.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/hail.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/thunder_snow.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/heavy_rain.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/light_rain.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/shower.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/heavy_cloud.jpg'
-    - 'C:/Users/Legion 5/StudioProjects/weather_app/assets/clear.jpg'
+    - 'assets/'
 
   # To add assets to your application, add an assets section, like this:
   # assets:
